@@ -1,7 +1,6 @@
 :root{
   --box-height: 250px;
 }
-
 html, body{
   height: 100%;
   width: 100%;
@@ -9,7 +8,7 @@ html, body{
   margin: 0px;
 }
 
-.navbar{background: #222;}
+.navbar{background: #b0d2de;}
 
 .row{
   height: 92.7%;
@@ -19,24 +18,25 @@ html, body{
 #editor-side{
   height: auto;
   padding: 0px !important;
-  /* border-right: 2px solid #333; */
+  border-right: 2px solid #333;
   box-sizing: border-box;
 }
 
 #html-box, #css-box, #js-box{
   height: calc(var(--box-height));
   box-sizing: border-box;
-  border-right: 2px solid #333;
+  border-right: 2px solid #b0dede;
 }
 .box-heading{
   padding: 3px 0 3px 20px;
-  background-color: #333;
-  color: white;
+  background-color: #b0dede;
+  color: darkblue;
 }
 #html-editor, #css-editor, #js-editor{
   height: calc(var(--box-height) - 1rem - 16px);
   width: 100%;
-  font-size: 14px;
+  font-size: 15px;
+  font-family: monospace;
 }
 
 /* hide scrollbars in chrome - don't know about FF */
